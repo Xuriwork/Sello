@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<link rel="icon" type="image/svg+xml" href="./sello-logo.svg" />
+		<link rel="alternate icon" type="image/x-icon" href="./favicon.ico" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Sello</title>
+	</head>
+	<body>
+		<header>
+			<div class="header-div">
+				<h1>Sello<span class="dot"></span></h1>
+				<nav>
+					<ul>
+						<li>Home</li>
+						<li>Product</li>
+						<li>Blog</li>
+						<li>Contact</li>
+					</ul>
+				</nav>
+				<div onclick="toggleMenu()">
+					<img src="./images/icons/open-menu.svg" alt="hamburger icon" />
+				</div>
+			</div>
+			<div id="mobile-menu" class="mobile-menu">
+				<ul>
+					<li>Home</li>
+					<li>Product</li>
+					<li>Blog</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</header>
+		<section class="hero-section">
+			<div class="step-container">
+				<img src="./images/steps/step1.svg" alt="intro" />
+			</div>
+			<div class="hero-content">
+				<h1>Sale off! Up to 70%</h1>
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting
+					industry. Lorem Ipsum has been the industry's standard dummy text ever
+					since the 1500s, when an unknown printer took a galley of type and
+					scrambled it to make a type specimen book.
+				</p>
+				<a href="#">Shop Now</a>
+			</div>
+			<div class="hero-section-image-container">
+				<img src="./images/hero-image.png" alt="woman holding a gray purse" />
+			</div>
+		</section>
+		<section class="trending-section">
+			<div class="step-container">
+				<img src="./images/steps/step2.svg" alt="trending" />
+			</div>
+			<div class="trending-items-container">
+				<div class="trending-section-nav">
+					<ul>
+						<li>T-Shirt</li>
+						<li>Pants</li>
+						<li>Shoe</li>
+						<li>Jacket</li>
+						<li>Fashion</li>
+					</ul>
+					<a href="#">All products</a>
+				</div>
+				<div class="trending-items-div">
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/CuffiedBeanie.png"
+								alt="Cuffied Beanie"
+							/>
+							<span>Hat</span>
+						</div>
+						<div class="item-description">
+							<h3>Cuffied Beanie</h3>
+							<span>$10.00</span>
+						</div>
+					</div>
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/GreyBeanie.png"
+								alt="Grey Beanie"
+							/>
+							<span>Hat</span>
+						</div>
+						<div class="item-description">
+							<h3>Grey Beanie</h3>
+							<span>$15.00</span>
+						</div>
+					</div>
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/CalvinKleinShirt.png"
+								alt="Calvin Klein Shirt"
+							/>
+							<span>Shirt</span>
+						</div>
+						<div class="item-description">
+							<h3>Calvin Klein Shirt</h3>
+							<span>$26.00</span>
+						</div>
+					</div>
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/WhiteTee.png"
+								alt="White Tee"
+							/>
+							<span>Shirt</span>
+						</div>
+						<div class="item-description">
+							<h3>White Tee</h3>
+							<span>$15.00</span>
+						</div>
+					</div>
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/RippedDenimShorts.png"
+								alt="Ripped Denim Shorts"
+							/>
+							<span>Shorts</span>
+						</div>
+						<div class="item-description">
+							<h3>Ripped Denim Shorts</h3>
+							<span>$15.00</span>
+						</div>
+					</div>
+					<div>
+						<div class="trending-item-image-container">
+							<img
+								src="./images/trending_section/ButtonDownSweater.png"
+								alt="Button Down Sweater"
+							/>
+							<span>Sweater</span>
+						</div>
+						<div class="item-description">
+							<h3>Button-Down Sweater</h3>
+							<span>$15.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="deal-section">
+			<div class="item-container">
+				<img src="./images/banner1.png" alt="Up to 70% off now" />
+				<div>
+					<h4>Summer Sale</h4>
+					<h3>Up to 70% off now</h3>
+					<a href="#">Shop Now</a>
+				</div>
+			</div>
+			<div class="item-container item-container-2">
+				<img src="./images/banner2.png" alt="Trending T-Shirt" />
+				<div>
+					<h4>New collection</h4>
+					<h3>Trending T-Shirt</h3>
+					<a href="#">Shop Now</a>
+				</div>
+			</div>
+		</section>
+		<section class="featured-section">
+			<div class="step-container">
+				<img src="./images/steps/step3.svg" alt="featured" />
+			</div>
+			<div class="featured-item-container">
+				<div class="featured-item-div">
+					<img
+						src="./images/featured_section/CheapMondayShirt.png"
+						alt="Cheap Monday Shirt"
+					/>
+					<div>
+						<h2>Cheap Monday Shirt</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="featured-item-div">
+					<img
+						src="./images/featured_section/CluseLaBohemeRose.png"
+						alt="Cluse La Bohème Rose"
+					/>
+					<div>
+						<h2>Cluse La Bohème Rose</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="featured-item-div">
+					<img
+						src="./images/featured_section/ShreddedDenims.png"
+						alt="Shredded Denims"
+					/>
+					<div>
+						<h2>Shredded Denims</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="featured-item-div">
+					<img
+						src="./images/featured_section/PistachioFrostWashedOutSweater.png"
+						alt="Pistachio Frost Washed Out Sweater"
+					/>
+					<div>
+						<h2>Analogue Resin Strap</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="featured-item-div">
+					<img
+						src="./images/trending_section/CalvinKleinShirt.png"
+						alt="Calvin Klein Shirt"
+					/>
+					<div>
+						<h2>Ridley High Waist</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="featured-item-div">
+					<img
+						src="./images/featured_section/HightopShoes.png"
+						alt="Hightop Shoes"
+					/>
+					<div>
+						<h2>Shell Top with Ruffle Front</h2>
+						<span>$36.00</span>
+						<div>
+							Add to Cart
+							<img
+								src="./images/icons/shopping-cart-line.svg"
+								alt="add to cart"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe-section">
+			<img class="left" src="./images/subscribe-image-left.png" alt="" />
+			<h2>Subscribe <b>Now</b></h2>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry.
+			</p>
+			<div>
+				<input type="email" placeholder="Enter the email address" />
+				<button>Subscribe</button>
+			</div>
+			<img class="right" src="./images/subscribe-image-right.png" alt="" />
+		</section>
+		<section class="our-story-section">
+			<div class="step-container">
+				<img src="./images/steps/step4.svg" alt="Our story" />
+			</div>
+			<div class="our-story-gallery-container">
+				<div class="our-story-gallery-item">
+					<img
+						src="./images/our_story_section/walk-in-closet.png"
+						alt="Walk in closet"
+					/>
+					<div>
+						<h2>Gallery: The Names of the Slave</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="our-story-gallery-item">
+					<img
+						src="./images/our_story_section/walk-in-closet.png"
+						alt="Walk in closet"
+					/>
+					<div>
+						<h2>Gallery: The Names of the Slave</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="our-story-gallery-item">
+					<img
+						src="./images/our_story_section/walk-in-closet.png"
+						alt="Walk in closet"
+					/>
+					<div>
+						<h2>Gallery: The Names of the Slave</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry. Lorem Ipsum has been the industry.
+						</p>
+						<a href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="instagram-feed-section">
+			<a href="#"
+				><img src="./images/icons/instagram-line.svg" alt="Instagram" />
+				Instagram Feed</a
+			>
+			<img
+				src="./images/instagram_section/manlongcoat.png"
+				alt="Man wearing a long coat"
+			/>
+			<img
+				src="./images/instagram_section/twowomenposing.png"
+				alt="Two women posing"
+			/>
+			<img
+				src="./images/instagram_section/womanapplyinglipstick.png"
+				alt="Woman applying lipstick"
+			/>
+			<img
+				src="./images/instagram_section/womangettingnailsdone.png"
+				alt="Woman getting nails done"
+			/>
+			<img
+				src="./images/instagram_section/womanlightbrowncoat.png"
+				alt="Woman wearing a light brown coat"
+			/>
+			<img
+				src="./images/instagram_section/womanposinginmirror.png"
+				alt="Woman posing in mirror"
+			/>
+			<img
+				src="./images/instagram_section/womansittingonstairswithbag.png"
+				alt="Woman sitting on stairs with bag"
+			/>
+			<img
+				src="./images/instagram_section/womanstairsglasses.png"
+				alt="Woman with glasses on stairs"
+			/>
+		</section>
+		<section class="items-category-section">
+			<div>
+				<h2>Women</h2>
+				<span>Dresses</span>
+				<span>Blouses</span>
+				<span>Swimwear</span>
+				<span>Sharee</span>
+			</div>
+			<div>
+				<h2>Men</h2>
+				<span>Accessories</span>
+				<span>T-Shirts</span>
+				<span>Jumpers</span>
+				<span>Jackets</span>
+			</div>
+			<div>
+				<h2>Kids</h2>
+				<span>Shoes</span>
+				<span>Accessories</span>
+				<span>Blouses</span>
+				<span>Shirts</span>
+			</div>
+			<div>
+				<h2>Toys</h2>
+				<span>Plush</span>
+				<span>Teddy</span>
+				<span>Cuddly toy</span>
+				<span>Kids toy</span>
+			</div>
+			<div>
+				<h2>Furniture</h2>
+				<span>Beds</span>
+				<span>Chiars</span>
+				<span>Tables</span>
+				<span>Dining Tables</span>
+			</div>
+			<div>
+				<h2>Jewelry</h2>
+				<span>Goldmine</span>
+				<span>Wedding Rings</span>
+				<span>Birthday Gifts</span>
+				<span>Necklesses</span>
+			</div>
+		</section>
+		<footer>
+			<div>
+				<h1>Sello<span class="dot"></span></h1>
+				<span>
+					184 Main Rd E, St Albans <br />
+					VIC 3021, Australia
+				</span>
+				<span>contact@company.com</span>
+				<span>+001 2233 456</span>
+			</div>
+			<div>
+				<h2>Information</h2>
+				<span>About Us</span>
+				<span>Contact Us</span>
+				<span>Terms & Conditions</span>
+				<span>Returns & Exchanges</span>
+				<span>Shipping & Delivery</span>
+				<span>Privacy Policy</span>
+			</div>
+			<div>
+				<h2>Quick Links</h2>
+				<span>Store Location</span>
+				<span>My Account</span>
+				<span>Orders Tracking</span>
+				<span>Size Guide</span>
+				<span>FAQs </span>
+				<span>Privacy Policy</span>
+			</div>
+			<div>
+				<h2>Payment</h2>
+				<span>Account</span>
+				<span>Free Shipping</span>
+				<span>Support 24/7</span>
+				<span>30 Days Products Return</span>
+				<span>100% Payment Secure</span>
+				<span>Supported ALl Cards</span>
+			</div>
+		</footer>
+		<div class="copyright-info-div">
+			<p>Copyright © 2019 Sello all rights reserved. Powered by Designik</p>
+			<ul>
+				<li>Home</li>
+				<li>Product</li>
+				<li>Blog</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+	</body>
+	<script src="./main.js" type="text/javascript"></script>
+</html>
